@@ -8,7 +8,7 @@ Future<void> initAppDependencies() async {
   // Services
   await Get.putAsync(
     () => StorageService().init(),
-    permanent: true,
+    permanent: true
   );
 
   Get.put(
